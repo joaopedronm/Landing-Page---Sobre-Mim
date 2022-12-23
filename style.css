@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 24px;
+}
+
+.cabecalho-menu {
+    display: flex;
+    gap: 72px;
+}
+
+.cabecalho-menu-item {
+    font-family: 'Sarala', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+    text-decoration: underline #12ea3d;
+}
+
+.cabecalho-menu-item:hover {
+    color: #12ea3d;
+    transition: 0.5s;
+    text-decoration: none;
+}
+
+body {
+    background: #121212;
+}
+
+/* .circle {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #12ea3d;
+    clip-path: circle(50% at bottom right);
+} */
+
+.section-primaria {
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-bottom: 0.4px solid #fff2e7;
+    /* justify-content: space-around; */
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    max-width: 700px;
+    margin-right: 20px;
+}
+
+.container span {
+    color: #12ea3d;
+}
+
+.container h2 {
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    font-size: 3.5em;
+    margin-bottom: 10px;
+    line-height: 1.3em;
+}
+
+.container h2 span {
+    font-size: 1.1em;
+    color: #12ea3d;
+}
+
+.container p {
+    font-family: 'Sarala', sans-serif;
+    color: #fff;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.container button {
+    width: 180px;
+    /* width: fit-content; */
+    /* display: inline-block; */
+    cursor: pointer;
+    font-family: 'Sarala', sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 40px;
+    padding: 10px 25px;
+    background: #12ea3d;
+    color: #121212;
+    text-decoration: none;
+    border-radius: 40px;
+    transition: 0.3s ease-in-out;
+}
+
+.container button:hover {
+    transform: scale(1.1);
+    background-color: #fff;
+}
+
+.jp {
+height: 500px;
+}
+
+.section-secundaria {
+    background: rgb(39, 39, 39);
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 30em;
+    border-bottom: 0.4px solid #fff2e7;
+}
+
+.container-2 {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 700px;
+}
+
+.container-2 h3 {
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    font-size: 46px;
+}
+
+.container-2 h4 {
+    font-family: 'Sarala', sans-serif;
+    font-size: 24px;
+    color: #fff;
+}
+
+.container-2 h4 span {
+    color: #12ea3d;
+}
+
+.container-2 p {
+    font-family: 'Sarala', sans-serif;
+    color: #fff;
+}
+
+.container-2 p a {
+    text-decoration: none;
+    color: #12ea3d;
+    font-weight: 700;
+}
+
+.container-2 p a:hover {
+    text-decoration: underline;
+}
+
+.section-terceira {
+    background: rgb(24, 24, 24);
+    height: 30em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-bottom: 0.4px solid #fff2e7;
+}
+
+.container-3-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container-3-titulo span {
+    color: #12ea3d;
+}
+
+.container-3 h3 {
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    font-size: 46px;
+}
+
+.container-3 p {
+    font-family: 'Sarala', sans-serif;
+    color: #fff;
+}
+
+.container-3 hr {
+    margin-top: 24px;
+    margin-bottom: 24px;
+}
+
+.linguagens {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.linguagens .html {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.linguagens .css {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.linguagens .js {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.section-quarta {
+    background: rgb(39, 39, 39);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    height: 35em;
+    border-bottom: 0.4px solid #fff2e7;
+    /* padding-bottom: 30px; */
+}
+
+.container-4 {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.title-contato {
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    font-size: 48px;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.title-redes {
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    font-size: 32px;
+}
+
+.title-redes span {
+    color: #12ea3d;
+}
+
+.redes-sociais i {
+    font-size: 40px;
+    color: #fff;
+    padding-top: 24px;
+    padding-right: 32px;
+}
+
+.redes-sociais i:hover {
+    transform: scale(1.05);
+    transition: 0.2s;
+    color: #12ea3d;
+}
+
+.formulario h4 {
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    font-size: 26px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    /* width: fit-content; */
+}
+
+form input {
+    width: 100%;
+    border: none;
+    padding: 6px;
+    background: #fafafa;
+    font-size: 10pt;
+    font-family: poppins;
+    outline: none;
+    box-sizing: border-box;
+}
+
+form label {
+    width: 100%;
+    color: #f0ffffde;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    font-family: poppins;
+    font-size: 14px;
+}
+
+form button {
+    width: 100%;
+    padding: 10px 0px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    text-transform: uppercase;
+    font-family: poppins;
+    transition: .4s;
+    background: #12ea3d;
+    cursor: pointer;
+}
+
+form button:hover {
+    transform: scale(1.05);
+    background: #fff;
+}
+
+footer {
+    height: 6em;
+    display: flex;
+    align-items: center;
+    justify-content: space-around
+}
+
+footer p {
+    font-family: 'Righteous', cursive;
+    color: #fff;
+    font-size: 14px;
+    line-height: 18px;
+    text-align: center;
+}
+
+footer p span {
+    color: #12ea3d;
+}

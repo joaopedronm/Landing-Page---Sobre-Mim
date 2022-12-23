@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./fontawesome/css/all.css">
+    <title>Document</title>
+    
+</head>
+<body>
+
+    <header class="cabecalho">
+        <img src="logo.png" alt="Logo" class="cabecalho-imagem">
+        <nav class="cabecalho-menu">
+            <a href="#home" class="cabecalho-menu-item">Home</a>
+            <a href="#quem-sou-eu" class="cabecalho-menu-item">Quem sou eu</a>
+            <a href="#conhecimento-tecnico" class="cabecalho-menu-item">Tecnologias</a>
+            <a href="#contato" class="cabecalho-menu-item">Contato</a>
+        </nav>
+    </header>
+
+    <main class="conteudo">
+        <section class="section-primaria" id="home">
+            <!-- <div class="circle"></div> -->
+            <div class="container">
+                <h2>FALAR É FÁCIL. <br> <span>ME MOSTRE O CÓDIGO.</span></h2>
+                <p>Bem-vindos ao meu Website. Nas próximas &ltDivs&gt apresento um resumo 
+                    sobre mim e sobre minha trajetória no mundo do Front-End<span>.</span>
+                </p>
+                <button href="https://www.google.com">{ Start }</button>
+            </div>
+            <img src="jp-3.png" alt="" class="jp">
+        </section>
+
+        <section class="section-secundaria" id="quem-sou-eu">
+            <img src="computer.png" alt="" height="400px">
+            <div class="container-2">
+                <h3>Quem sou eu</h3>
+                <hr width="10%">
+                <h4>Desenvolvedor <span>Front-End</span></h4>
+                <p>Meu nome é João Pedro, tenho 26 anos e sou fascinado por tecnologia.</p>
+                <p>Comecei minha trajetória no mundo tech há um ano, quando comecei a desenvolver
+                    Sites em Wordpress. Com o tempo, fui percebendo a necessidade de ampliar
+                    o meu conhecimento em desenvolvimento web para criar <b>aplicações mais complexas
+                    e mais práticas</b>. </p>
+                <p>Atualmente estou cursando Desenvolvimento Front-End na <a href="https://ada.tech/" target="_blank">Ada</a>
+                e estou sempre buscando aprimorar meus conhecimentos através de livros e conteúdos na Internet.</p>
+            </div>
+        </section>
+
+        <section class="section-terceira" id="conhecimento-tecnico">
+            <div class="container-3">
+                <div class="container-3-titulo">
+                    <h3>Conhecimento <span>Técnico</span></h3>
+                    <p>Um pouco das linguagens que domino e utilizo no meu dia a dia como Front-End</p>
+                    <hr width="5%">
+                </div>
+                <div class="linguagens">
+                    <div class="html">
+                        <img src="html-5.png" alt="" width="175px">
+                        <progress value="90" max="100">90 %</progress>
+                    </div>
+
+                    <div class="css">
+                        <img src="css-3.png" alt="" width="175px">
+                        <progress value="90" max="100">90 %</progress>
+                    </div>
+
+                    <div class="js">
+                        <img src="javascript-39417.png" alt="" width="150px">
+                        <progress value="70" max="100">70 %</progress>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section class="section-quarta" id="contato">
+            <h3 class="title-contato">Contato</h3>
+            <div class="container-4">
+                <div class="redes-sociais">
+                    <h3 class="title-redes">Redes <span>Sociais</span></h3>
+                    <a href="https://www.linkedin.com/in/jo%C3%A3o-pedro-nascimento-557136241/"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/joaopedronm"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com"><i class="fab fa-instagram"></i></a>
+                </div>
+
+                <div class="formulario">
+                    <h4>Ou deixe uma mensagem</h4>
+                    <form action="post">
+                        <label for="nome">Nome</label>
+                        <input type="text" id="nome" placeholder="Digite seu nome" name="nome" required>
+                        <label for="tel">Número de Celular</label>
+                        <input type="tel" id="tel" placeholder="(00) 00000-0000" name="tel" required>
+                        <label for="mensagem">Escreva sua Mensagem:</label>
+                        <textarea name="mensagem" id="mensagem" cols="30" rows="10"></textarea>
+                        <button type="submit">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <img src="logo.png" alt="" height="50px">
+        <p>Copyright 2022. <span>João Pedro Nascimento</span>. <br> Todos os direitos reservados.</p>
+    </footer>
+    
+</body>
+</html>
